@@ -16,6 +16,10 @@ https://4geeks.com/interactive-coding-tutorial/build-your-resume-html-css
 - [Documentacion CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [Documentacion CSS Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
+#### Youtube
+
+- [CSS Kevin Powel](https://www.youtube.com/@KevinPowell/featured)
+
 ### Tipografías
 
 - [Google Fonts](https://fonts.google.com/)
