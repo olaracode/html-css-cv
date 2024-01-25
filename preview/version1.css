@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+body {
+  font-family: "Inconsolata", monospace;
+  box-sizing: border-box;
+  background-color: #fffcf9;
+}
+
+.container {
+  padding: 1rem 1rem;
+}
+
+.skills > li {
+  margin-bottom: 10px;
+}
+
+.experience {
+  margin-bottom: 3rem;
+}
+
+.experience > h3,
+p {
+  margin-bottom: 0px;
+}
+
+.experience-header {
+  display: flex;
+  gap: 1rem;
+}
+
+.experience-accent {
+  color: #ff6b6b;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.delay {
+  animation-delay: 0.2s;
+}
+
+.delay-2 {
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
