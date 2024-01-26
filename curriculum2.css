@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header{
+    background-color: #29638a;
+    padding: 20px;
+    color: white;
+}
+
+.grilla {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    min-height: 100vh;
+    /* 1/12 2/12 3/12 */
+}
+
+.columna-8 {
+    padding: 20px;
+    grid-column: span 8;
+}
+
+.columna-4 {
+    grid-column: span 4;
+    padding: 20px;
+    background-color: #afafaf; /* Gris ligero */
+}
+
+.columna-8 > article {
+    margin: 20px 0px;
+}
+
+.columna-8 > article > div {
+    margin: 10px 0px;
+}
+
+.columna-8 > article > div > h3 {
+    margin: 5px 0px;
+}
+
+.columna-4 > article {
+    margin: 10px 0px;
+}
+
+.columna-4 > article > h3 {
+    margin: 10px 0px;
+}
+
+.contact-data > p > i {
+    color:#29638a;
+    margin-right: 5px;
+}
+
+.experience-bar {
+    background-color:#29638a;
+    height: 30px;
+    border-radius: 0px 15px 15px 0px;
+}
+
+.experience-bar--html {
+    width: 80%;
+}
+
+.experience-bar--css {
+    width: 60%;
+}

@@ -1,0 +1,52 @@
+/* DE LOS ESTILOS */
+
+/* Para usar una tipografia externa */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+/* body */
+
+/* *: a todos */
+* {
+    margin: 0px;
+}
+
+body {
+    font-family: 'Inconsolata', monospace; /* Monospace: Tipografia tipo maquina escribir */
+    background-color: #fffcf9;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px; /* modificamos el tamaño de la letra */
+}
+
+/* .clase */
+.details {
+    font-weight: 900; /* Es el peso de la letra */
+}
+
+/* selector anidado */
+.details > p{
+    margin-bottom: 10px; /* Un espaciado inferior */
+}
+
+.skills > li {
+    margin-top: 10px; /* Un espaciado superior */
+}
+
+section {
+    margin: 20px 0px; /* Y, X */
+}
+
+section > article {
+    margin: 15px 0px;
+}
+
+section > article > h3, p {
+    margin: 15px 0px;
+}
+
+.accent {
+    color: #ff6b6b;
+    font-weight: 900;
+}

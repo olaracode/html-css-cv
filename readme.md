@@ -18,6 +18,7 @@ https://4geeks.com/interactive-coding-tutorial/build-your-resume-html-css
 
 #### Youtube
 
+- [Canal 4geeks](https://www.youtube.com/c/4GeeksAcademy)
 - [CSS Kevin Powel](https://www.youtube.com/@KevinPowell/featured)
 
 ### Tipografías
